@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-<img alt="WiFi Duck Logo" src="https://raw.githubusercontent.com/spacehuhn/WiFiDuck/master/img/logo.png" width="200">
+<img alt="Web Interface" src="https://i.ibb.co/BBWd8sh/2.jpg" width="200">
 </p>
 
 Here is the firmware for WifiDuck by spacehuhn with support for FR keyboards
