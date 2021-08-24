@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+<img alt="File Picture" src="https://i.ibb.co/VHWbPS2/1.jpg" width="200">
+</p>
+
+<p align="center">
 <img alt="Web Interface" src="https://i.ibb.co/BBWd8sh/2.jpg" width="">
 </p>
 
