@@ -12,6 +12,7 @@ Here is the firmware for WifiDuck by spacehuhn with support for FR keyboards
 
 
 FR KEYBOARD TEST: !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\[]^_abcdefghijklmnopqrstuvwxyz{|}~² 
+
 EN KEYBOARD TEST: !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\[]^_abcdefghijklmnopqrstuvwxyz{|}~²³äöüÄÖÜß€°§
 
 There are only the essential keys because I have not found the rest
