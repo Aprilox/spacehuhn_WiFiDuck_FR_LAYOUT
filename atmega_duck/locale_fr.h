@@ -198,6 +198,7 @@ const uint8_t extended_ascii_fr[] PROGMEM = {
 const uint8_t utf8_fr[] PROGMEM = {
     0xc3, 0xa8, 0x00, 0x00, KEY_NONE, KEY_7,                // è
     0xc3, 0xa9, 0x00, 0x00, KEY_NONE, KEY_2,                // é
+    0xc3, 0xa0, 0x00, 0x00, KEY_NONE, KEY_0,                // à
     0xc3, 0xb9, 0x00, 0x00, KEY_NONE, KEY_APOSTROPHE,       // ù
     0xc2, 0xb5, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_BACKSLASH,  // µ    
     0xc3, 0xa7, 0x00, 0x00, KEY_NONE, KEY_9                 // ç
