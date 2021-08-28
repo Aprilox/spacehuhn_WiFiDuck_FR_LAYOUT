@@ -1,7 +1,8 @@
 /*
-   Copyright (c) 2019 Stefan Kremser
    This software is licensed under the MIT License. See the license file for details.
-   Source: github.com/spacehuhn/WiFiDuck
+   Source: https://github.com/spacehuhntech/WiFiDuck
+   Modified locale for french azety (WIP)
+   TODO Need to add : ÉÈÀ°ç£¤µù§¨öôûüîïâäòàìùÖÔÛÜÎÏÂÄÒÀÌÙ€
  */
 
 #pragma once
@@ -47,56 +48,56 @@ const uint8_t ascii_fr[] PROGMEM = {
     KEY_NONE,       KEY_NONE,       // US
 
     // 32, 0x20
-    KEY_NONE,       KEY_SPACE,      // ' '    MODIF
-    KEY_NONE,       KEY_SLASH,      // !      MODIF
-    KEY_NONE,       KEY_3,          // "      MODIF
-    KEY_MOD_RALT,   KEY_3,          // #      MODIF
+    KEY_NONE,       KEY_SPACE,      // ' '
+    KEY_NONE,       KEY_SLASH,      // !
+    KEY_NONE,       KEY_3,          // "
+    KEY_MOD_RALT,   KEY_3,          // #
 
     // 36, 0x24
-    KEY_NONE,       KEY_RIGHTBRACE, // $      MODIF
-    KEY_MOD_LSHIFT, KEY_APOSTROPHE, // %      MODIF
-    KEY_NONE,       KEY_1,          // &      MODIF
-    KEY_NONE,       KEY_4,          // '      MODIF
+    KEY_NONE,       KEY_RIGHTBRACE, // $
+    KEY_MOD_LSHIFT, KEY_APOSTROPHE, // %
+    KEY_NONE,       KEY_1,          // &
+    KEY_NONE,       KEY_4,          // '
 
     // 40, 0x28
-    KEY_NONE,       KEY_5,          // (      MODIF
-    KEY_NONE,       KEY_MINUS,      // )      MODIF
-    KEY_NONE,       KEY_BACKSLASH,  // *      MODIF
-    KEY_MOD_LSHIFT, KEY_EQUAL,      // +      MODIF
+    KEY_NONE,       KEY_5,          // (
+    KEY_NONE,       KEY_MINUS,      // )
+    KEY_NONE,       KEY_BACKSLASH,  // *
+    KEY_MOD_LSHIFT, KEY_EQUAL,      // +
 
     // 44, 0x2c
-    KEY_NONE,       KEY_M,          // ,      MODIF
-    KEY_NONE,       KEY_6,          // -      MODIF
-    KEY_MOD_LSHIFT, KEY_COMMA,      // .      MODIF
-    KEY_MOD_LSHIFT, KEY_DOT,        // /      MODIF
+    KEY_NONE,       KEY_M,          // ,
+    KEY_NONE,       KEY_6,          // -
+    KEY_MOD_LSHIFT, KEY_COMMA,      // .
+    KEY_MOD_LSHIFT, KEY_DOT,        // /
 
     // 48, 0x30
-    KEY_MOD_LSHIFT,   KEY_0,          // 0      MODIF
-    KEY_MOD_LSHIFT,   KEY_1,          // 1      MODIF
-    KEY_MOD_LSHIFT,   KEY_2,          // 2      MODIF
-    KEY_MOD_LSHIFT,   KEY_3,          // 3      MODIF
+    KEY_MOD_LSHIFT, KEY_0,          // 0
+    KEY_MOD_LSHIFT, KEY_1,          // 1
+    KEY_MOD_LSHIFT, KEY_2,          // 2
+    KEY_MOD_LSHIFT, KEY_3,          // 3
 
     // 52, 0x34
-    KEY_MOD_LSHIFT,   KEY_4,          // 4      MODIF
-    KEY_MOD_LSHIFT,   KEY_5,          // 5      MODIF
-    KEY_MOD_LSHIFT,   KEY_6,          // 6      MODIF
-    KEY_MOD_LSHIFT,   KEY_7,          // 7      MODIF
+    KEY_MOD_LSHIFT, KEY_4,          // 4
+    KEY_MOD_LSHIFT, KEY_5,          // 5
+    KEY_MOD_LSHIFT, KEY_6,          // 6
+    KEY_MOD_LSHIFT, KEY_7,          // 7
 
     // 56, 0x38
-    KEY_MOD_LSHIFT,   KEY_8,          // 8      MODIF
-    KEY_MOD_LSHIFT,   KEY_9,          // 9      MODIF
-    KEY_NONE,         KEY_DOT,        // :      MODIF
-    KEY_NONE,         KEY_COMMA,      // ;      MODIF
+    KEY_MOD_LSHIFT, KEY_8,          // 8
+    KEY_MOD_LSHIFT, KEY_9,          // 9
+    KEY_NONE,       KEY_DOT,        // :
+    KEY_NONE,       KEY_COMMA,      // ;
 
     // 60, 0x3c
-    KEY_NONE,       KEY_102ND,      // <      MODIF
-    KEY_NONE,       KEY_EQUAL,      // =      MODIF
-    KEY_MOD_LSHIFT, KEY_102ND,      // >      MODIF
-    KEY_MOD_LSHIFT, KEY_M,          // ?      MODIF
+    KEY_NONE,       KEY_102ND,      // <
+    KEY_NONE,       KEY_EQUAL,      // =
+    KEY_MOD_LSHIFT, KEY_102ND,      // >
+    KEY_MOD_LSHIFT, KEY_M,          // ?
 
     // 64, 0x40
-    KEY_MOD_RALT,   KEY_0,          // @      MODIF
-    KEY_MOD_LSHIFT, KEY_Q,          // A      MODIF
+    KEY_MOD_RALT,   KEY_0,          // @
+    KEY_MOD_LSHIFT, KEY_Q,          // A
     KEY_MOD_LSHIFT, KEY_B,          // B
     KEY_MOD_LSHIFT, KEY_C,          // C
 
@@ -114,13 +115,13 @@ const uint8_t ascii_fr[] PROGMEM = {
 
     // 76, 0x4c
     KEY_MOD_LSHIFT, KEY_L,          // L
-    KEY_MOD_LSHIFT, KEY_SEMICOLON,  // M      MODIF
+    KEY_MOD_LSHIFT, KEY_SEMICOLON,  // M
     KEY_MOD_LSHIFT, KEY_N,          // N
     KEY_MOD_LSHIFT, KEY_O,          // O
 
     // 80, 0x50
     KEY_MOD_LSHIFT, KEY_P,          // P
-    KEY_MOD_LSHIFT, KEY_A,          // Q      MODIF
+    KEY_MOD_LSHIFT, KEY_A,          // Q
     KEY_MOD_LSHIFT, KEY_R,          // R
     KEY_MOD_LSHIFT, KEY_S,          // S
 
@@ -128,23 +129,23 @@ const uint8_t ascii_fr[] PROGMEM = {
     KEY_MOD_LSHIFT, KEY_T,          // T
     KEY_MOD_LSHIFT, KEY_U,          // U
     KEY_MOD_LSHIFT, KEY_V,          // V
-    KEY_MOD_LSHIFT, KEY_Z,          // W      MODIF
+    KEY_MOD_LSHIFT, KEY_Z,          // W
 
     // 88, 0x58
     KEY_MOD_LSHIFT, KEY_X,          // X
     KEY_MOD_LSHIFT, KEY_Y,          // Y
-    KEY_MOD_LSHIFT, KEY_W,          // Z      MODIF
-    KEY_MOD_RALT,   KEY_5,          // [      MODIF
+    KEY_MOD_LSHIFT, KEY_W,          // Z
+    KEY_MOD_RALT,   KEY_5,          // [
 
     // 92, 0x5c
-    KEY_MOD_RALT,   KEY_8,          // bslash     MODIF
-    KEY_MOD_RALT,   KEY_MINUS,      // ]          MODIF
-    KEY_NONE,       KEY_LEFTBRACE,  // ^          MODIF
-    KEY_NONE,       KEY_8,          // _          MODIF
+    KEY_MOD_RALT,   KEY_8,          // bslash
+    KEY_MOD_RALT,   KEY_MINUS,      // ]
+    KEY_MOD_RALT,   KEY_9,          // ^
+    KEY_NONE,       KEY_8,          // _
 
     // 96, 0x60
-    KEY_NONE,       KEY_GRAVE,      // `
-    KEY_NONE,       KEY_Q,          // a      MODIF
+    KEY_MOD_RALT,   KEY_7,          // `
+    KEY_NONE,       KEY_Q,          // a
     KEY_NONE,       KEY_B,          // b
     KEY_NONE,       KEY_C,          // c
 
@@ -162,13 +163,13 @@ const uint8_t ascii_fr[] PROGMEM = {
 
     // 108, 0x6c
     KEY_NONE,       KEY_L,          // l
-    KEY_NONE,       KEY_SEMICOLON,  // m      MODIF
+    KEY_NONE,       KEY_SEMICOLON,  // m
     KEY_NONE,       KEY_N,          // n
     KEY_NONE,       KEY_O,          // o
 
     // 112, 0x70
     KEY_NONE,       KEY_P,          // p
-    KEY_NONE,       KEY_A,          // q      MODIF
+    KEY_NONE,       KEY_A,          // q
     KEY_NONE,       KEY_R,          // r
     KEY_NONE,       KEY_S,          // s
 
@@ -176,23 +177,31 @@ const uint8_t ascii_fr[] PROGMEM = {
     KEY_NONE,       KEY_T,          // t
     KEY_NONE,       KEY_U,          // u
     KEY_NONE,       KEY_V,          // v
-    KEY_NONE,       KEY_Z,          // w      MODIF
+    KEY_NONE,       KEY_Z,          // w
 
     // 120, 0x78
     KEY_NONE,       KEY_X,          // x
     KEY_NONE,       KEY_Y,          // y
-    KEY_NONE,       KEY_W,          // z      MODIF
-    KEY_MOD_RALT,   KEY_4,          // {      MODIF
+    KEY_NONE,       KEY_W,          // z
+    KEY_MOD_RALT,   KEY_4,          // {
 
     // 124, 0x7c
-    KEY_MOD_RALT,   KEY_6,          // |      MODIF
-    KEY_MOD_RALT,   KEY_EQUAL,      // }      MODIF
-    KEY_MOD_RALT,   KEY_2,          // ~      MODIF
+    KEY_MOD_RALT,   KEY_6,          // |
+    KEY_MOD_RALT,   KEY_EQUAL,      // }
+    KEY_MOD_RALT,   KEY_2,          // ~
     KEY_NONE,       KEY_NONE        // DEL
 };
 
+const uint8_t extended_ascii_fr[] PROGMEM = {
+};
+
+const uint8_t utf8_fr[] PROGMEM = {
+    0xc3, 0xa8, 0x00, 0x00, KEY_NONE, KEY_7,     // è
+    0xc3, 0xa9, 0x00, 0x00, KEY_NONE, KEY_2,     // é
+    };
+    
 static hid_locale_t locale_fr {
     (uint8_t*)ascii_fr, 128,
-    NULL, 0,
-    NULL, 0
+    (uint8_t*)extended_ascii_fr,  sizeof(extended_ascii_fr) / 3,
+    (uint8_t*)utf8_fr, sizeof(utf8_fr) / 6
 };
